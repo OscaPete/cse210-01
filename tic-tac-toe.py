@@ -7,6 +7,7 @@ def main() :
     while win_status == "n/a" :
         show_board(board)
         make_move(current_player, board)
+        current_player = next_player(current_player)
 
     if win_status == "x" :
         show_board(board)
