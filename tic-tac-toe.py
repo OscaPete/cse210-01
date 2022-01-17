@@ -1,3 +1,6 @@
+#Tic-Tac-Toe Solo Code
+#By Oscar Peterson
+
 def main() :
     current_player = next_player(" ")
     board = make_board()
